@@ -1,0 +1,127 @@
+body{
+    background-color: hsl(225, 100%, 94%);
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+
+.container{
+    background-color: white;
+    border-radius: 20px;
+    width: 375px;
+    margin: 70px auto;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.photo{
+    width: 375px;
+    border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+
+h1{
+    font-family: 'Red Hat Display', sans-serif;
+}
+.intro{
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+    color:  hsl(224, 23%, 55%);
+    line-height: 30px;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+
+.plan{
+    background-color: hsl(225, 100%, 98%) ;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 15px;
+	margin-bottom: 30px;
+    
+    
+    
+}
+
+.icon, .anual, .change{
+    
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+
+}
+
+.icon{
+    float: left;
+    margin: 10px 10px
+}
+
+.change{
+    float: right;
+    font-family: 'Red Hat Display', sans-serif;
+	color: rgb(53, 18, 228);
+    font-weight: 900;
+    margin-top: 30px;
+	margin-right: 10px;
+    font-size: 13px;
+}
+.change a:hover {
+	color: rgba(53, 18, 228, 0.65);
+}
+
+.anual{
+    font-family: 'Red Hat Display', sans-serif;
+	font-size: 16px;
+	color: hsl(224, 23%, 55%);
+	line-height: 20px;
+   
+}
+
+.pay{
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color:  rgb(53, 18, 228);
+    box-shadow: 0 20px 10px rgb(241, 224, 248);
+    border-radius: 10px;
+    padding: 13px;
+    padding-top: 15px;
+	padding-bottom: 15px;
+   
+}
+
+.pay:hover{
+    background-color: rgba(53, 18, 228, 0.65);
+}
+
+
+.paylink{
+    color: white;
+    text-decoration: none;
+    font-family: 'Red Hat Display', sans-serif;
+    
+}
+
+
+.cancel{
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 15px;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.cancel a{
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);
+
+}
+.cancel a:hover {
+	color:black;
+}
+
+
